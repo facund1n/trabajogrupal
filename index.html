@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./customcss/custom.css">
 </head>
 
-<!-- stycky navbar -->
+<!-- STICKY NAVBAR: INICIO -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
     <a class="navbar-brand" href="#"><img src="./img/wireframe/indico-noticias.png" alt="índicologo" height="40px"
             width="80px"></a>
@@ -20,14 +20,15 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Últimas Noticias<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Coronavirus</a>
-            <a class="nav-item nav-link" href="#">Economía</a>
-            <a class="nav-item nav-link" href="#">Política</a>
-            <a class="nav-item nav-link" href="#">Deportes</a>
-            <a class="nav-item nav-link" href="#">Espectáculos</a>
-            <a class="nav-item nav-link" href="#">Música</a>
-            <a class="nav-item nav-link" href="#">Contacto</a>
+            <!-- le agregrué un HOVER con una animación es la CLASS="a1" -->
+            <a class="a1 nav-item nav-link active" href="#">Últimas Noticias<span class="sr-only">(current)</span></a>
+            <a class="a1 nav-item nav-link " href="#">Coronavirus</a>
+            <a class="a1 nav-item nav-link " href="#">Economía</a>
+            <a class="a1 nav-item nav-link " href="#">Política</a>
+            <a class="a1 nav-item nav-link " href="#">Deportes</a>
+            <a class="a1 nav-item nav-link " href="#">Espectáculos</a>
+            <a class="a1 nav-item nav-link " href="#">Música</a>
+            <a class="a1 nav-item nav-link " href="#">Contacto</a>
         </div>
     </div>
     <form class="form-inline my-2 my-lg-0">
@@ -35,19 +36,27 @@
         <button class="btn btn-success my-2 my-sm-0" type="submit">🔎Buscar</button>
     </form>
 </nav>
+<!-- STICKY NAVBAR: FIN -->
+
 <header>
 
-    <!-- main logo -->
+    <!-- MAIN LOGO -->
     <div class="d-flex justify-content-center">
         <div class="p-2"><img src="./img/wireframe/indico-noticias.png"></div>
     </div>
 
-    <!-- social navbar -->
-    <div class="container d-sm-none d-md-block">
+    <!-- SOCIAL NAVBAR: INICIO-->
+    <div class="container d-sm-none d-md-block align-self-center">
+        <!-- linea negra ancha + línea fina bajo el logo -->
+        <!-- tuve que usar un DIV class="hr1" para darle estilo al HR ANCHO porque BS ya tenía un estilo por defecto para los HR-->
         <div class="hr1">
             <hr>
         </div>
+
         <hr style="width:80%;">
+
+        <!-- linea negra ancha + línea fina bajo el logo -->
+
         <div class="d-flex justify-content-center">
 
             <a class="nav-item nav-link d-flex flex-sm-row" href="#"><img src="./img/social/fb.png" height="20px"
@@ -63,12 +72,14 @@
                     height="20px" width="20px"> Registrate A Nuestro Newsletter</a>
         </div>
         <hr style="width:80%;">
+        <!-- SOCIAL NAVBAR: FIN-->
     </div>
 
 
 </header>
 
 <body>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -78,6 +89,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
