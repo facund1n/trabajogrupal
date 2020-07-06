@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./img/wireframe/favicon.png">
+        <title>Índico Noticias</title>
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./customcss/custom.css">
+    </head>
+
+    <body>
+
+        <!-- STICKY NAVBAR: INICIO -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+            <a class="navbar-brand" href="#"><img
+                    src="./img/wireframe/indico-noticias.png" alt="índicologo"
+                    height="40px"
+                    width="80px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <!-- le agregrué un HOVER con una animación es la CLASS="a1" -->
+                    <a class="a1 nav-item nav-link" href="#">Últimas
+                        Noticias<span class="sr-only">(current)</span></a>
+                    <a class="a1 nav-item nav-link" href="#">Coronavirus</a>
+                    <a class="a1 nav-item nav-link" href="#">Economía</a>
+                    <a class="a1 nav-item nav-link" href="#">Política</a>
+                    <a class="a1 nav-item nav-link" href="#">Deportes</a>
+                    <a class="a1 nav-item nav-link" href="#">Espectáculos</a>
+                    <a class="a1 nav-item nav-link" href="#">Música</a>
+                    <a class="a1 nav-item nav-link active" href="#">Contacto</a>
+                </div>
+            </div>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search"
+                    placeholder="Buscar en Índico" aria-label="Search">
+                <button class="btn btn-success my-2 my-sm-0" type="submit">🔎Buscar</button>
+            </form>
+        </nav>
+        <!-- STICKY NAVBAR: FIN -->
+
+        <header>
+
+            <!-- MAIN LOGO -->
+            <div class="d-flex justify-content-center">
+                <div class="p-2"><img src="./img/wireframe/indico-noticias.png"></div>
+            </div>
+
+            <!-- SOCIAL NAVBAR: INICIO-->
+            <div class="container d-sm-none d-md-block align-self-center">
+                <!-- linea negra ancha + línea fina bajo el logo -->
+                <!-- tuve que usar un DIV class="hr1" para darle estilo al HR ANCHO porque BS ya tenía un estilo por defecto para los HR-->
+                <div class="hr1">
+                    <hr>
+                </div>
+
+                <hr style="width:80%;">
+
+                <!-- FIN linea negra ancha + línea fina bajo el logo -->
+
+                <div class="d-flex justify-content-center">
+
+                    <a class="nav-item nav-link d-flex flex-sm-row" href="#"><img
+                            src="./img/social/fb.png" height="20px"
+                            width="20px"> Facebook</a>
+                    <a class="nav-item nav-link d-flex flex-sm-row" href="#"><img
+                            src="./img/social/twitter.png" height="20px"
+                            width="20px"> Twitter</a>
+                    <a class="nav-item nav-link d-flex flex-sm-row" href="#"><img
+                            src="./img/social/insta.png" height="20px"
+                            width="20px"> Instagram</a>
+                    <a class="nav-item nav-link d-flex flex-sm-row" href="#"><img
+                            src="./img/social/app.png" height="20px"
+                            width="20px"> Índico
+                        APP</a>
+                    <a class="nav-item nav-link d-flex flex-sm-row" href="#"><img
+                            src="./img/social/newsletter.png"
+                            height="20px" width="20px"> Registrate A Nuestro
+                        Newsletter</a>
+                </div>
+                <hr style="width:80%;">
+                <!-- SOCIAL NAVBAR: FIN-->
+            </div>
+
+
+        </header>
+
+        <!--Defino columnas para el formulario-->
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <!--Formulario-->
+                <div class="col-7">
+                    <h3>Contactanos</h3>
+                    <p>En Índico, a las noticias las contamos entre todos, nos
+                        interesa escuchar tu versión.</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control"
+                                id="exampleFormControlInput1"
+                                placeholder="ejempo@mail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Motivo</label>
+                            <select class="form-control"
+                                id="exampleFormControlSelect1">
+                                <option>Denuncia</option>
+                                <option>Opinion</option>
+                                <option>Consulta</option>
+                                <option>Colaboracion</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Mensaje</label>
+                            <textarea class="form-control"
+                                id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                    <button class="btn btn-primary col align-self-end"
+                        type="submit">Enviar</button>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
