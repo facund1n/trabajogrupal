@@ -13,32 +13,51 @@
 <body>
 
     <!-- STICKY NAVBAR: INICIO -->
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-        <a class="navbar-brand" href="#"><img src="./img/wireframe/indico-noticias.png" alt="índicologo" height="40px"
-                width="80px"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="./index.html"><img src="./img/wireframe/indico-noticias.png" alt="índicologo"
+                height="40px" width="80px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <!-- le agregrué un HOVER con una animación es la CLASS="a1" -->
-                <a class="a1 nav-item nav-link active" href="./index.html">Últimas
-                    Noticias<span class="sr-only">(current)</span></a>
-                <a class="a1 nav-item nav-link" href="#">Coronavirus</a>
-                <a class="a1 nav-item nav-link" href="#">Economía</a>
-                <a class="a1 nav-item nav-link" href="#">Política</a>
-                <a class="a1 nav-item nav-link" href="#">Deportes</a>
-                <a class="a1 nav-item nav-link" href="#">Espectáculos</a>
-                <a class="a1 nav-item nav-link" href="#">Música</a>
-                <a class="a1 nav-item nav-link" href="#">Contacto</a>
-            </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="a1 nav-link" href="#">Últimas Noticias<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="#">Coronavirus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="#">Economía</a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="#">Política</a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="#">Deportes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="#">Espectáculos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="#">Música</a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="#">Contacto</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success btn-outline-success my-2 my-sm-0" type="submit">🔎</button>
+            </form>
         </div>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Buscar en Índico" aria-label="Search">
-            <button class="btn btn-success my-2 my-sm-0" type="submit">🔎</button>
-        </form>
     </nav>
+
     <!-- STICKY NAVBAR: FIN -->
 
     <header>
