@@ -14,7 +14,7 @@
 
     <!-- STICKY NAVBAR: INICIO -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
         <a class="navbar-brand" href="./index.html"><img src="./img/wireframe/indico-noticias.png" alt="índicologo"
                 height="40px" width="80px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -49,8 +49,8 @@
                 <li class="nav-item">
                     <a class="a1 nav-link" href="#">Contacto</a>
                 </li>
-
             </ul>
+
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-success btn-outline-success my-2 my-sm-0" type="submit">🔎</button>
@@ -61,40 +61,84 @@
     <!-- STICKY NAVBAR: FIN -->
 
     <header>
+
         <!-- MAIN LOGO -->
         <div class="d-flex justify-content-center">
-            <div class="p-2"><img src="./img/wireframe/indico-noticias.png"></div>
+            <img src="./img/wireframe/indico-noticias.png">
         </div>
-        <!-- SOCIAL NAVBAR: INICIO-->
-        <div class="container d-sm-none d-md-block align-self-center">
-            <!-- linea negra ancha + línea fina bajo el logo -->
-            <!-- tuve que usar un DIV class="hr1" para darle estilo al HR ANCHO porque BS ya tenía un estilo por defecto para los HR-->
-            <div class="hr1">
-                <hr>
-            </div>
+
+        <!-- SOCIAL NAVBAR 1: VISIBLE UNICAMENTE EN DISPOSITIVOS MD y mas grandes-->
+        <div class="container d-none d-md-block d-lg-block d-xl-block">
+
+            <br>
+            <hr class="hr1">
+
             <hr style="width:80%;">
-            <!-- FIN linea negra ancha + línea fina bajo el logo -->
-            <div class="d-flex justify-content-center">
-                <a class="nav-item nav-link d-flex flex-sm-row align-items-center"
-                    href="https://www.facebook.com/RollingCodeSchool/"><img src="./img/social/fb.png" height="20px"
-                        width="20px">
-                    Facebook</a>
-                <a class="nav-item nav-link d-flex flex-sm-row align-items-center" href="https://www.twitter.com/"><img
-                        src="./img/social/twitter.png" height="20px" width="20px"> Twitter</a>
-                <a class="nav-item nav-link d-flex flex-sm-row align-items-center"
-                    href="https://www.instagram.com/"><img src="./img/social/insta.png" height="20px" width="20px">
+
+            <div class="d-flex row justify-content-center align-items-center">
+
+                <a class="nav-item nav-link" href="https://www.facebook.com/RollingCodeSchool/">
+                    <img src="./img/social/fb.png" height="20px" width="20px">Facebook
+                </a>
+
+                <a class="nav-item nav-link" href="https://www.twitter.com/"><img src="./img/social/twitter.png"
+                        height="20px" width="20px">
+                    Twitter</a>
+                <a class="nav-item nav-link" href="https://www.instagram.com/"><img src="./img/social/insta.png"
+                        height="20px" width="20px">
                     Instagram</a>
-                <a class="nav-item nav-link d-flex flex-sm-row align-items-center"
-                    href="https://play.google.com/store"><img src="./img/social/app.png" height="20px" width="20px">
+
+                <a class="nav-item nav-link" href="https://play.google.com/store"><img src="./img/social/app.png"
+                        height="20px" width="20px">
                     Índico
                     APP</a>
-                <a class="nav-item nav-link d-flex flex-sm-row align-items-center" href="#"><img
-                        src="./img/social/newsletter.png" height="20px" width="20px"> Registrate A Nuestro
+
+                <a class="nav-item nav-link" href="#"><img src="./img/social/newsletter.png" height="20px" width="20px">
+                    Registrate A Nuestro
                     Newsletter</a>
+
             </div>
+
             <hr style="width:80%;">
+
         </div>
-        <!-- SOCIAL NAVBAR: FIN-->
+        <!-- SOCIAL NAVBAR 1: FIN-->
+
+        <!-- SOCIAL NAVBAR 2: VISIBLE UNICAMENTE EN DISPOSITIVOS SM-->
+
+        <div class="container align-self-center d-block d-md-none d-xl-none flex-sm-row">
+
+            <br>
+            <hr style="width:95%;" class="hr3">
+
+            <hr style="width:95%;">
+
+            <div class="d-flex justify-content-center">
+
+                <a class="nav-item nav-link" href="https://www.facebook.com/RollingCodeSchool/"><img
+                        src="./img/social/fb.png" height="30px" width="30px">
+                </a>
+
+                <a class="nav-item nav-link" href="https://www.twitter.com/"><img src="./img/social/twitter.png"
+                        height="30px" width="30px"> </a>
+                <a class="nav-item nav-link" href="https://www.instagram.com/"><img src="./img/social/insta.png"
+                        height="30px" width="30px">
+                </a>
+
+                <a class="nav-item nav-link" href="https://play.google.com/store"><img src="./img/social/app.png"
+                        height="30px" width="30px">
+
+                </a>
+
+                <a class="nav-item nav-link" href="#"><img src="./img/social/newsletter.png" height="30px" width="30px">
+                </a>
+
+            </div>
+
+            <hr style="width:95%;">
+
+        </div>
+        <!-- SOCIAL NAVBAR 2: FIN-->
 
     </header>
 
