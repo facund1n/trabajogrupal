@@ -9,34 +9,62 @@
     <title>Índico Noticias</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../customcss/custom.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-        <a class="navbar-brand" href="#"><img src="../img/wireframe/indico-noticias.png" alt="índicologo" height="40px"
-                width="80px"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- STICKY NAVBAR: INICIO -->
+
+    <nav class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
+        <a class="navbar-brand" href="../index.html"><img src="../img/wireframe/indico-noticias.png" alt="índicologo"
+                height="40px" width="80px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <!-- le agregrué un HOVER con una animación es la CLASS="a1" -->
-                <a class="a1 nav-item nav-link active" href="../index.html">Últimas
-                    Noticias<span class="sr-only">(current)</span></a>
-                <a class="a1 nav-item nav-link" href="#">Coronavirus</a>
-                <a class="a1 nav-item nav-link" href="#">Economía</a>
-                <a class="a1 nav-item nav-link" href="#">Política</a>
-                <a class="a1 nav-item nav-link" href="#">Deportes</a>
-                <a class="a1 nav-item nav-link" href="#">Espectáculos</a>
-                <a class="a1 nav-item nav-link" href="#">Música</a>
-                <a class="a1 nav-item nav-link" href="#">Contacto</a>
-            </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="a1 nav-link" href="#">Últimas Noticias<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="#">Coronavirus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="#">Economía</a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="#">Política</a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="#">Deportes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="#">Espectáculos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="#">Música</a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success btn-outline-success my-2 my-sm-0" type="submit">🔎</button>
+            </form>
         </div>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Buscar en Índico" aria-label="Search">
-            <button class="btn btn-success my-2 my-sm-0" type="submit">🔎</button>
-        </form>
     </nav>
     <!-- INICIO de artículo -->
     <div class="container">
@@ -62,106 +90,46 @@
 
     </div>
     <!-- FIN de artículo -->
-    <!-- JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-    <!-- JS -->
     <footer>
+
         <hr>
+
         <div class="container">
-            <div class="row justify-content-sm-center">
-                <div class="col align-self-center">
-
-                    <a href="https://www.facebook.com/RollingCodeSchool/" target="_blank">
-                        <img class="bordecitos" src="../img/social/fb.png" height="28px" width="28px">
-                    </a>
-
-                    <a href="https://twitter.com/" target="_blank">
-                        <img class="bordecitos" src="../img/social/twitter.png" height="28px" width="28px">
-                    </a>
-
-                    <a href="https://instagram.com/" target="_blank">
-                        <img class="bordecitos" src="../img/social/insta.png" height="28px" width="28px">
-                    </a>
-
-                    <a href="https://play.google.com/store" target="_blank">
-                        <img class="bordecitos" src="../img/social/app.png" height="28px" width="28px">
-                    </a>
-
-                    <a href="#">
-                        <img class="bordecitos" src="../img/social/newsletter.png" height="28px" width="28px">
-                    </a>
+            <div class="d-sm-flex flex-row">
+                <div class="container-fluid">
+                    <div class="flex-column">
+                        <div class="font-weight-bold">Rolling Code School</div>
+                        <a class="nav-link" href="https://play.google.com/store" target="_blank">Indico APP</a>
+                        <a class="nav-link" href="./index.html">Últimas Noticias</a>
+                        <a class="nav-link" href="">RSS</a>
+                        <a class="nav-link" href="">Sitemap</a>
+                    </div>
                 </div>
-
-                <div class="col d-none d-lg-block">
-                    <img src="../img/wireframe/footerlogo.png">
+                <div class="container-fluid">
+                    <div class="flex-column">
+                        <div class="font-weight-bold">Contacténos</div>
+                        <a class="nav-link" href="">Contacto</a>
+                        <a class="nav-link" href="">Redacción</a>
+                        <a class="nav-link" href="">Red De Periodistas</a>
+                        <a class="nav-link" href="">Comercial</a>
+                        <a class="nav-link" href="">Media Kit</a>
+                    </div>
                 </div>
-
-                <div class="col align-self-center">
-                    <p><b>Todos los derechos reservados © 2020 Índico Enterprise & RollingCodeSchool Assoc.</b></p>
+                <div class="container-fluid">
+                    <div class="flex-column">
+                        <div class="font-weight-bold">Redes Sociales</div>
+                        <a class="nav-link" href="https://www.facebook.com/RollingCodeSchool/"
+                            target="_blank">Facebook</a>
+                        <a class="nav-link" href="https://twitter.com/" target="_blank">Twitter</a>
+                        <a class="nav-link" href="https://instagram.com/" target="_blank">Instagram</a>
+                    </div>
                 </div>
-
-            </div>
-
-        </div>
-
-
-        <hr>
-        <div>
-            <div class="container font-weight-bold">
-                <div class="row row-cols-4">
-                    <div class="col">Rolling Code School</div>
-                    <div class="col">Contacténos</div>
-                    <div class="col">Redes Sociales</div>
-                    <div class="col">Legal</div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row row-cols-4">
-                    <a class="col nav-link" href="https://play.google.com/store" target="_blank">Indico APP</a>
-                    <a class="col nav-link" href="">Contacto</a>
-                    <a class="col nav-link" href="https://www.facebook.com/RollingCodeSchool/"
-                        target="_blank">Facebook</a>
-                    <a class="col nav-link" href="">Política De Privacidad</a>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row row-cols-4">
-                    <a class="col nav-link" href="../index.html">Últimas Noticias</a>
-                    <a class="col nav-link" href="">Redacción</a>
-                    <a class="col nav-link" href="https://twitter.com/" target="_blank">Twitter</a>
-                    <a class="col nav-link" href="">Términos y condiciones</a>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row row-cols-4">
-                    <a class="col nav-link" href="">RSS</a>
-                    <a class="col nav-link" href="">Red De Periodistas</a>
-                    <a class="col nav-link" href="https://instagram.com/" target="_blank">Instagram</a>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row row-cols-4">
-                    <a class="col nav-link" href="">Sitemap</a>
-                    <a class="col nav-link" href="">Comercial</a>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row row-cols-4">
-                    <a class="col nav-link" href=""></a>
-                    <a class="col nav-link" href="">Media Kit</a>
+                <div class="container-fluid">
+                    <div class="flex-column">
+                        <div class="font-weight-bold">Legal</div>
+                        <a class="nav-link" href="">Política De Privacidad</a>
+                        <a class="nav-link" href="">Términos y condiciones</a>
+                    </div>
                 </div>
             </div>
         </div>
