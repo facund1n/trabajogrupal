@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum scale=1.0">
     <link rel="icon" href="./img/wireframe/favicon.png">
     <title>Índico Noticias</title>
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
@@ -12,10 +12,9 @@
 </head>
 
 <body>
+  <!-- STICKY NAVBAR: INICIO -->
 
-   <!-- STICKY NAVBAR: INICIO -->
-
-   <nav class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
+  <nav class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
     <a class="navbar-brand" href="./index.html"><img src="./img/wireframe/indico-noticias.png" alt="índicologo"
             height="40px" width="80px"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -47,8 +46,8 @@
             <li class="nav-item">
                 <a class="a1 nav-link" href="#">Música</a>
             </li>
-            <li class="nav-item active">
-                <a class="a1 nav-link" href="#">Contacto</a>
+            <li class="nav-item">
+                <a class="a1 nav-link active" href="#">Contacto</a>
             </li>
         </ul>
 
@@ -58,6 +57,8 @@
         </form>
     </div>
 </nav>
+
+<!-- STICKY NAVBAR: FIN -->
 
     <header>
 
@@ -160,10 +161,10 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                 </form>
-                <button class="btn btn-primary col align-self-end" type="submit">Enviar</button>
+                <button class="btn btn-primary col align-self-end m-2" type="submit">Enviar</button>
             </div>
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-sm col-4">
+                <div class="card m-1" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Publicidad</h5>
                         <p class="card-text">En Índico Noticias podemos
