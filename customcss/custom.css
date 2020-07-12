@@ -1,5 +1,8 @@
 body {background-color: #fffffff5;}
 .hr1 {background-color: black; height: 3px; padding: 0px; margin: -10px 10% -10px 10%;}
+.hr2 {background-color: black; height: 1.2px; padding: 0px; margin-bottom: 10px;}
+.hr3 {background-color: black; height: 3px; padding: 0px;}
 .letrablanca { text-decoration-color: none; color: white;}
 .a1:hover{background-color: rgb(0, 100, 220); color: white; transition: 300ms; border-radius: 3px;}
 .bordecitos {border-style: solid; border-width: 1px; border-radius: 6px;}
+.arial {font-family: 'Arial', bold; font-size: 2.8rem; font-weight: 900; color: rgb(20, 20, 20);}
