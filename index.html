@@ -8,6 +8,15 @@
     <title>Índico Noticias</title>
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./customcss/custom.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -69,10 +78,8 @@
 
         <!-- SOCIAL NAVBAR 1: VISIBLE UNICAMENTE EN DISPOSITIVOS MD y mas grandes-->
         <div class="container d-none d-md-block d-lg-block d-xl-block">
-
             <br>
             <hr class="hr1">
-
             <hr style="width:80%;">
 
             <div class="d-flex row justify-content-center align-items-center">
@@ -81,19 +88,20 @@
                     <img src="./img/social/fb.png" height="20px" width="20px">Facebook
                 </a>
 
-                <a class="nav-item nav-link" href="https://www.twitter.com/"><img src="./img/social/twitter.png"
-                        height="20px" width="20px">
+                <a class="nav-item nav-link" href="https://www.twitter.com/">
+                    <img src="./img/social/twitter.png" height="20px" width="20px">
                     Twitter</a>
-                <a class="nav-item nav-link" href="https://www.instagram.com/"><img src="./img/social/insta.png"
-                        height="20px" width="20px">
+                <a class="nav-item nav-link" href="https://www.instagram.com/">
+                    <img src="./img/social/insta.png" height="20px" width="20px">
                     Instagram</a>
 
-                <a class="nav-item nav-link" href="https://play.google.com/store"><img src="./img/social/app.png"
-                        height="20px" width="20px">
+                <a class="nav-item nav-link" href="https://play.google.com/store">
+                    <img src="./img/social/app.png" height="20px" width="20px">
                     Índico
                     APP</a>
 
-                <a class="nav-item nav-link" href="#"><img src="./img/social/newsletter.png" height="20px" width="20px">
+                <a class="nav-item nav-link" href="#">
+                    <img src="./img/social/newsletter.png" height="20px" width="20px">
                     Registrate A Nuestro
                     Newsletter</a>
 
@@ -106,257 +114,195 @@
 
         <!-- SOCIAL NAVBAR 2: VISIBLE UNICAMENTE EN DISPOSITIVOS SM-->
 
-        <div class="container align-self-center d-block d-md-none d-xl-none flex-sm-row">
+        <div class="container d-block d-md-none d-xl-none ">
 
             <br>
             <hr style="width:95%;" class="hr3">
-
             <hr style="width:95%;">
-
-            <div class="d-flex justify-content-center">
-
-                <a class="nav-item nav-link" href="https://www.facebook.com/RollingCodeSchool/"><img
-                        src="./img/social/fb.png" height="30px" width="30px">
+            <div class="d-flex flex-sm-row align-self-center justify-content-center">
+                <a class="nav-item nav-link" href="https://www.facebook.com/RollingCodeSchool/">
+                    <img src="./img/social/fb.png" height="40px" width="40px">
                 </a>
-
-                <a class="nav-item nav-link" href="https://www.twitter.com/"><img src="./img/social/twitter.png"
-                        height="30px" width="30px"> </a>
-                <a class="nav-item nav-link" href="https://www.instagram.com/"><img src="./img/social/insta.png"
-                        height="30px" width="30px">
+                <a class="nav-item nav-link" href="https://www.twitter.com/">
+                    <img src="./img/social/twitter.png" height="40px" width="40px"> </a>
+                <a class="nav-item nav-link" href="https://www.instagram.com/">
+                    <img src="./img/social/insta.png" height="40px" width="40px">
                 </a>
-
-                <a class="nav-item nav-link" href="https://play.google.com/store"><img src="./img/social/app.png"
-                        height="30px" width="30px">
-
+                <a class="nav-item nav-link" href="https://play.google.com/store">
+                    <img src="./img/social/app.png" height="40px" width="40px">
                 </a>
-
-                <a class="nav-item nav-link" href="#"><img src="./img/social/newsletter.png" height="30px" width="30px">
+                <a class="nav-item nav-link" href="#">
+                    <img src="./img/social/newsletter.png" height="40px" width="40px">
                 </a>
-
             </div>
-
             <hr style="width:95%;">
-
         </div>
         <!-- SOCIAL NAVBAR 2: FIN-->
 
     </header>
 
+    <!-- 4 columnas: notas recomnedadas, Espectáculos humor y publicidad -->
+
     <div class="container">
+        <div class="d-sm-flex flex-row">
 
-        <!-- 4 columnas: notas recomnedadas, Espectáculos humor y publicidad -->
-        <div class="row row-cols-4">
-
-            <div class="col">
-
-                <hr class="hr2 d-flex col">
-                <h5 class="col">Notas recomendadas</h5>
-                <div class="d-flex col">
+            <div class="container-fluid">
+                <div class="flex-column">
+                    <hr class="hr2">
+                    <h5>Recomendados</h5>
                     <a href="./indexados/ya-funcionan-los-semaforos.html">Ya funcionan los
                         nuevos semáforos de avenida Perón y Moreno</a>
-                </div>
-                <br>
-                <div class="d-flex col">
+                    <br>
+                    <br>
                     <a href="./indexados/descubriendo-a-belgrano.html">Descubriendo a Belgrano en la
                         ciudad</a>
-                </div>
-                <br>
-                <div class="d-flex col">
+                    <br>
+                    <br>
                     <a href="./indexados/bajo-un-estricto-protocolo-ya-funcionan-los-gimasios.html">Bajo
                         un estricto
                         protocolo reabrieron los gimnasios en
                         Concepción</a>
-                </div>
-                <br>
-                <div class="d-flex col">
+                    <br>
+                    <br>
                     <a href="./indexados/la-sociedad-del-cuidado.html">La sociedad del cuidado</a>
                 </div>
-
             </div>
 
-            <div class="col">
-
-                <hr class="hr2 d-flex col">
-                <h5 class="col">Espectáculos</h5>
-
-                <div>
-                    <div class="d-flex col"><img src="./img/rick.jpg" alt="" height="100%" width="100%"></div>
-                    <div class="d-flex col"><a href="">La cuarentena cambió la forma de ofrecer shows</a></div>
-                </div>
-
-                <br>
-
-                <div>
-                    <div class="d-flex col"><img src="./img/natalia.jpg" alt="" height="100%" width="100%"></div>
-                    <div class="d-flex col"><a href="">Natalia Oreiro se sumó a Instagram, después de limpiar, comer y
-                            leer</a></div>
-                </div>
-
-                <br>
-
-                <div>
-                    <div class="d-flex col"><img src="./img/solei.jpg" alt="" height="100%" width="100%"></div>
-                    <div class="d-flex col"><a href="">Varios espectaculos para disfrutar por internet</a></div>
-                </div>
-
-            </div>
-
-            <div class="col">
-
-                <hr class="hr2 d-flex col">
-                <h5 class="col">Humor</h5>
-                <div>
-                    <div class="d-flex col"><a href="./img/cartoon.jpg" target="_blank"><img src="./img/cartoon.jpg"
-                                height="100%" width="100%"></a></div>
-                </div>
-
-                <br>
-
-                <div>
-                    <div class="d-flex col"><a href="./img/fulbolista.jpeg" target="_blank"><img
-                                src="./img/fulbolista.jpeg" height="100%" width="100%"></a></div>
-                </div>
-
-                <br>
-
-                <div>
-                    <div class="d-flex col">
-                        <a href="./img/bolt.jpg" target="_blank"><img src="./img/bolt.jpg" height="100%"
-                                width="100%"></a>
+            <div class="container-fluid">
+                <div class="flex-column">
+                    <hr class="hr2">
+                    <h5>Espectáculos</h5>
+                    <img src="./img/rick.jpg" class="img-fluid mx-auto d-block">
+                    <div>
+                        <a href="">La cuarentena cambió la forma de ofrecer shows</a>
                     </div>
+                    <br>
+                    <br>
+                    <img src="./img/natalia.jpg" class="img-fluid mx-auto d-block">
+                    <div>
+                        <a href="">Natalia Oreiro se sumó a Instagram, después de limpiar, comer y leer</a>
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <img src="./img/solei.jpg" class="img-fluid mx-auto d-block">
+                    </div>
+                    <a href="">Varios espectaculos para disfrutar por internet</a>
                 </div>
-
             </div>
 
-            <div class="col">
-
-                <hr class="hr2 d-flex col">
-                <p>adds by guglle</p>
-                <div>
-                    <div class="d-flex col">
-                        <a href="https://www.facebook.com/Las-Recetas-De-La-Abuela-104801257682181/"
-                            target="_blank"><img src="./img/delivery.gif" height="100%" width="100%"></a>
-                    </div>
+            <div class="container-fluid">
+                <div class="flex-column">
+                    <hr class="hr2">
+                    <h5>Humor</h5>
+                    <a href="./img/cartoon.jpg" target="_blank">
+                        <img src="./img/cartoon.jpg" class="img-fluid mx-auto d-block"></a>
+                    <br>
+                    <a href="./img/fulbolista.jpeg" target="_blank">
+                        <img src="./img/fulbolista.jpeg" class="img-fluid mx-auto d-block"></a>
+                    <br>
+                    <a href="./img/bolt.jpg" target="_blank">
+                        <img src="./img/bolt.jpg" class="img-fluid mx-auto d-block">
+                    </a>
                 </div>
-
-                <br>
-
-                <div>
-                    <div class="d-flex col">
-                        <a href="#" target="_blank"><img src="./img/ford.gif" height="100%" width="100%"></a>
-                    </div>
-                </div>
-
             </div>
 
+            <div class="container-fluid">
+                <div class="flex-column">
+                    <hr>
+                    <p>adds by google</p>
+                    <a href="https://www.facebook.com/Las-Recetas-De-La-Abuela-104801257682181/" target="_blank">
+                        <img src="./img/delivery.gif" class="img-fluid mx-auto d-block"></a>
+                    <br>
+                    <a href="#" target="_blank"><img src="./img/ford.gif" class="img-fluid mx-auto d-block"></a>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-            crossorigin="anonymous"></script>
+    <footer>
 
-        <footer>
+        <hr>
 
-            <hr>
-
-            <div class="container">
-                <div class="row justify-content-sm-center">
-                    <div class="col align-self-center">
-
+        <div class="container">
+            <div class="d-sm-flex flex-row">
+                <div class="container-fluid">
+                    <div class="flex-column">
                         <a href="https://www.facebook.com/RollingCodeSchool/" target="_blank">
                             <img class="bordecitos" src="./img/social/fb.png" height="28px" width="28px">
                         </a>
-
                         <a href="https://twitter.com/" target="_blank">
                             <img class="bordecitos" src="./img/social/twitter.png" height="28px" width="28px">
                         </a>
-
                         <a href="https://instagram.com/" target="_blank">
                             <img class="bordecitos" src="./img/social/insta.png" height="28px" width="28px">
                         </a>
-
                         <a href="https://play.google.com/store" target="_blank">
                             <img class="bordecitos" src="./img/social/app.png" height="28px" width="28px">
                         </a>
-
                         <a href="#">
                             <img class="bordecitos" src="./img/social/newsletter.png" height="28px" width="28px">
                         </a>
                     </div>
-
-                    <div class="col d-none d-lg-block">
+                </div>
+                <div class="container-fluid">
+                    <div class="flex-column d-none d-lg-block">
                         <img src="./img/wireframe/footerlogo.png">
                     </div>
-
-                    <div class="col align-self-center">
-                        <p><b>Todos los derechos reservados © 2020 Índico Enterprise & RollingCodeSchool Assoc.</b></p>
-                    </div>
-
                 </div>
-
+                <div class="container-fluid">
+                    <div class="flex-column">
+                        <p><b>Todos los derechos reservados © 2020 Índico Enterprise & RollingCodeSchool
+                                Assoc.</b>
+                        </p>
+                    </div>
+                </div>
             </div>
+        </div>
 
-            <hr>
+        <hr>
 
-            <div>
-                <div class="container font-weight-bold">
-                    <div class="row row-cols-4">
-                        <div class="col">Rolling Code School</div>
-                        <div class="col">Contacténos</div>
-                        <div class="col">Redes Sociales</div>
-                        <div class="col">Legal</div>
+        <div class="container">
+            <div class="d-sm-flex flex-row">
+                <div class="container-fluid">
+                    <div class="flex-column">
+                        <div class="font-weight-bold">Rolling Code School</div>
+                        <a class="nav-link" href="https://play.google.com/store" target="_blank">Indico APP</a>
+                        <a class="nav-link" href="./index.html">Últimas Noticias</a>
+                        <a class="nav-link" href="">RSS</a>
+                        <a class="nav-link" href="">Sitemap</a>
                     </div>
                 </div>
-
-                <div class="container">
-                    <div class="row row-cols-4">
-                        <a class="col nav-link" href="https://play.google.com/store" target="_blank">Indico APP</a>
-                        <a class="col nav-link" href="">Contacto</a>
-                        <a class="col nav-link" href="https://www.facebook.com/RollingCodeSchool/"
+                <div class="container-fluid">
+                    <div class="flex-column">
+                        <div class="font-weight-bold">Contacténos</div>
+                        <a class="nav-link" href="">Contacto</a>
+                        <a class="nav-link" href="">Redacción</a>
+                        <a class="nav-link" href="">Red De Periodistas</a>
+                        <a class="nav-link" href="">Comercial</a>
+                        <a class="nav-link" href="">Media Kit</a>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="flex-column">
+                        <div class="font-weight-bold">Redes Sociales</div>
+                        <a class="nav-link" href="https://www.facebook.com/RollingCodeSchool/"
                             target="_blank">Facebook</a>
-                        <a class="col nav-link" href="">Política De Privacidad</a>
+                        <a class="nav-link" href="https://twitter.com/" target="_blank">Twitter</a>
+                        <a class="nav-link" href="https://instagram.com/" target="_blank">Instagram</a>
                     </div>
                 </div>
-
-                <div class="container">
-                    <div class="row row-cols-4">
-                        <a class="col nav-link" href="./index.html">Últimas Noticias</a>
-                        <a class="col nav-link" href="">Redacción</a>
-                        <a class="col nav-link" href="https://twitter.com/" target="_blank">Twitter</a>
-                        <a class="col nav-link" href="">Términos y condiciones</a>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="row row-cols-4">
-                        <a class="col nav-link" href="">RSS</a>
-                        <a class="col nav-link" href="">Red De Periodistas</a>
-                        <a class="col nav-link" href="https://instagram.com/" target="_blank">Instagram</a>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="row row-cols-4">
-                        <a class="col nav-link" href="">Sitemap</a>
-                        <a class="col nav-link" href="">Comercial</a>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="row row-cols-4">
-                        <a class="col nav-link" href=""></a>
-                        <a class="col nav-link" href="">Media Kit</a>
+                <div class="container-fluid">
+                    <div class="flex-column">
+                        <div class="font-weight-bold">Legal</div>
+                        <a class="nav-link" href="">Política De Privacidad</a>
+                        <a class="nav-link" href="">Términos y condiciones</a>
                     </div>
                 </div>
             </div>
+        </div>
 
-        </footer>
+    </footer>
 
 </body>
 
