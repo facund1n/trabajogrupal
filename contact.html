@@ -26,7 +26,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="a1 nav-link" href="#">Últimas Noticias<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -48,7 +48,11 @@
                     <a class="a1 nav-link" href="#">Música</a>
                 </li>
                 <li class="nav-item">
-                    <a class="a1 nav-link active" href="#">Contacto</a>
+                    <a class="a1 nav-link" href="contact.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="AcercaDeNosotros.html">Acerca de
+                        Nosotros</a>
                 </li>
             </ul>
 
@@ -134,29 +138,56 @@
     </header>
 
     <!--Defino columnas para el formulario-->
-    <div class="container">
+    <div class="container" style="background-color: rgb(240, 240, 240); padding: 2%; border-radius: 10px;">
         <div class="d-sm-flex flex-row ">
             <!--Formulario-->
             <div class="container-fluid">
                 <div class="flex-column align-items-stretch">
 
-                    <h3>Contactanos</h3>
+                    <h3 class="letrazul">Contactanos</h3>
                     <p>En Índico, a las noticias las contamos entre todos, nos
                         interesa escuchar tu versión.</p>
                     <form>
                         <div class="form-group">
-                            <label for="exampleFormControlInput1">Email</label>
+                            <label for="exampleFormControlInput1">
+                                <img src="./img/contact/person.png" width="45px" height="25px">
+                                Nombres
+                            </label>
                             <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="ejemplo@mail.com">
+                                placeholder="ej.: Juan Pablo">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">
+                                <img src="./img/contact/person.png" width="45px" height="25px">
+                                Apellido</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="ej.: Perez">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">
+                                <img src="./img/contact/letter.png" width="25px" height="25px">
+                                Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="nombre@dominio.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">
+                                <img src="./img/contact/phone.png" width="25px" height="25px">
+                                Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Teléfono">
                         </div>
 
                         <div class="form-group">
                             <label for="exampleFormControlSelect1">Motivo</label>
                             <select class="form-control" id="exampleFormControlSelect1">
-                                <option>Denuncia</option>
-                                <option>Opinion</option>
                                 <option>Consulta</option>
+                                <option>Opinión</option>
                                 <option>Colaboración</option>
+                                <option>Denuncia</option>
                             </select>
                         </div>
 
@@ -177,7 +208,7 @@
 
                     <div class="card" style="padding: 2%">
                         <div class="card-body">
-                            <h5 class="card-title">Publicidad</h5>
+                            <h5 class="card-title letrazul">Publicidad</h5>
                             <p class="card-text">
                                 En Índico Noticias podemos mejorar tus ventas, por publicidad contactanos al siguiente
                                 mail:
@@ -188,7 +219,7 @@
                     <br>
                     <div class="card" style="padding: 2%;">
                         <div class="card-body">
-                            <h5 class="card-title">Clasificados</h5>
+                            <h5 class="card-title letrazul">Clasificados</h5>
                             <p class="card-text">
                                 Alguien busca lo que vos vendes, para publicar contactanos al siguiente mail:
                             </p>
