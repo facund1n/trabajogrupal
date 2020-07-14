@@ -1,31 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../img/wireframe/favicon.png">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="../../img/wireframe/favicon.png">
     <title>Índico Noticias</title>
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../customcss/custom.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../customcss/custom.css">
 </head>
 
 <body>
     <!-- STICKY NAVBAR: INICIO -->
 
     <nav class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
-        <a class="navbar-brand" href="../index.html"><img src="../img/wireframe/indico-noticias.png" alt="índicologo"
-                height="40px" width="80px"></a>
+        <a class="navbar-brand" href="../../index.html"><img src="../../img/wireframe/footerlogo.png" alt="índicologo"
+                height="60px" width="100px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -56,7 +47,10 @@
                     <a class="a1 nav-link" href="#">Música</a>
                 </li>
                 <li class="nav-item">
-                    <a class="a1 nav-link" href="#">Contacto</a>
+                    <a class="a1 nav-link" href="../../indexados/contact-page/contact-page.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="a1 nav-link" href="#">Acerca de nosotros</a>
                 </li>
             </ul>
 
@@ -66,6 +60,13 @@
             </form>
         </div>
     </nav>
+
+    <header>
+    </header>
+    <!-- STICKY NAVBAR: FIN -->
+
+
+
     <!-- INICIO de artículo -->
     <div class="container">
 
@@ -127,86 +128,130 @@
     <hr>
     <!-- FIN de artículo -->
     <footer>
-
-        <div class="container">
-            <div class="d-sm-flex flex-row">
-                <div class="container-fluid">
-                    <div class="flex-column">
-                        <a href="https://www.facebook.com/RollingCodeSchool/" target="_blank">
-                            <img class="bordecitos" src="../img/social/fb.png" height="28px" width="28px">
-                        </a>
-                        <a href="https://twitter.com/" target="_blank">
-                            <img class="bordecitos" src="../img/social/twitter.png" height="28px" width="28px">
-                        </a>
-                        <a href="https://instagram.com/" target="_blank">
-                            <img class="bordecitos" src="../img/social/insta.png" height="28px" width="28px">
-                        </a>
-                        <a href="https://play.google.com/store" target="_blank">
-                            <img class="bordecitos" src="../img/social/app.png" height="28px" width="28px">
-                        </a>
-                        <a href="#">
-                            <img class="bordecitos" src="../img/social/newsletter.png" height="28px" width="28px">
-                        </a>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="flex-column d-none d-lg-block">
-                        <img src="../img/wireframe/footerlogo.png">
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="flex-column">
-                        <p><b>Todos los derechos reservados © 2020 Índico Enterprise & RollingCodeSchool
-                                Assoc.</b>
-                        </p>
+        <!-- FOOTER VISIBLE SOLO EN MD PARA ARRIBA -->
+        <div class="container-fluid fondoazulosc">
+            <div class="container-fluid d-none d-md-block d-lg-block d-xl-block fondoazul" style="padding: 1%;">
+                <div class="container">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="col align-self-center">
+                            <img src="../../img/wireframe/footerlogo.png" class="img-fluid mx-auto d-block"
+                                style="border-radius: 5px;">
+                        </div>
+                        <div class="col">
+                            <h5 class="letrablanca">MENÚ</h5>
+                            <hr style="background-color: white;">
+                            <a class="letrablanca nav-link" href="#">Últimas Noticias</a>
+                            <a class="letrablanca nav-link" href="#">Acerca de</a>
+                            <a class="letrablanca nav-link" href="#">Redacción</a>
+                            <a class="letrablanca nav-link" href="#">Red de Periodistas </a>
+                        </div>
+                        <div class="col">
+                            <h5 class="letrablanca">REDES SOCIALES</h5>
+                            <hr style="background-color: white;">
+                            <a class="letrablanca nav-link" href="#">Facebook</a>
+                            <a class="letrablanca nav-link" href="#">Instagram</a>
+                            <a class="letrablanca nav-link" href="#">Twitter</a>
+                            <a class="letrablanca nav-link" href="#"> </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Parte Inferior -->
+        <div class="container d-none d-md-block d-lg-block d-xl-block">
+            <div class="d-flex flex-row justify-content-center">
+                <div>
+                    <a class="text-body nav-link" href="#">Términos y condiciones</a>
+                </div>
+                <div>
+                    <a class="text-body nav-link" href="../politica-de-privacidad/politica-de-privacidad.html">Política
+                        de
+                        privacidad</a>
+                </div>
+                <div>
+                    <a class="text-body nav-link" href="../../indexados/contact-page/contact-page.html">Contacto</a>
+                </div>
+                <div>
+                    <a class="text-body nav-link" href="#">Publicidad</a>
+                </div>
 
-        <hr>
-
-        <div class="container">
-            <div class="d-sm-flex flex-row">
-                <div class="container-fluid">
-                    <div class="flex-column">
-                        <div class="font-weight-bold">Rolling Code School</div>
-                        <a class="nav-link" href="https://play.google.com/store" target="_blank">Indico APP</a>
-                        <a class="nav-link" href="../index.html">Últimas Noticias</a>
-                        <a class="nav-link" href="">RSS</a>
-                        <a class="nav-link" href="">Sitemap</a>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="flex-column">
-                        <div class="font-weight-bold">Contacténos</div>
-                        <a class="nav-link" href="">Contacto</a>
-                        <a class="nav-link" href="">Redacción</a>
-                        <a class="nav-link" href="">Red De Periodistas</a>
-                        <a class="nav-link" href="">Comercial</a>
-                        <a class="nav-link" href="">Media Kit</a>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="flex-column">
-                        <div class="font-weight-bold">Redes Sociales</div>
-                        <a class="nav-link" href="https://www.facebook.com/RollingCodeSchool/"
-                            target="_blank">Facebook</a>
-                        <a class="nav-link" href="https://twitter.com/" target="_blank">Twitter</a>
-                        <a class="nav-link" href="https://instagram.com/" target="_blank">Instagram</a>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="flex-column">
-                        <div class="font-weight-bold">Legal</div>
-                        <a class="nav-link" href="">Política De Privacidad</a>
-                        <a class="nav-link" href="">Términos y condiciones</a>
-                    </div>
+            </div>
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <p class="font-weight-bolder">©2020 ÍNDICO NOTICIAS creado por Grupo 2 RollingCode</p>
                 </div>
             </div>
         </div>
 
+
+        <!-- FOOTER VISIBLE SOLO EN SM -->
+
+        <div class="container d-block d-md-none d-xl-none">
+            <div class="fondoazulosc">
+                <div class="container fondoazul">
+                    <div class="flex-row d-sm-flex">
+                        <!-- parte superior -->
+                        <div class="container-fluid">
+                            <div class="d-flex justify-content-center">
+                                <img src="../../img/wireframe/footerlogo.png" class="img-fluid "
+                                    style="border-radius: 15px; padding: 2%;">
+                                </img>
+                            </div>
+                            <div class="flex-column">
+                                <h5 class="letrablanca">MENÚ</h5>
+                                <hr style="background-color: white;">
+                                <a class="letrablanca nav-link" href="#">Últimas Noticias</a>
+                                <a class="letrablanca nav-link" href="#">Acerca de</a>
+                                <a class="letrablanca nav-link" href="#">Redacción</a>
+                                <a class="letrablanca nav-link" href="#">Red de Periodistas </a>
+                            </div>
+
+                            <div class="flex-column">
+                                <h5 class="letrablanca">REDES SOCIALES</h5>
+                                <hr style="background-color: white;">
+                                <a class="letrablanca nav-link" href="#">Facebook</a>
+                                <a class="letrablanca nav-link" href="#">Instagram</a>
+                                <a class="letrablanca nav-link" href="#">Twitter</a>
+                                <a class="letrablanca nav-link" href="#"> </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- parte inferior -->
+            <div class="container">
+                <div class="flex-row">
+                    <div class="flex-column">
+                        <a class="text-body nav-link" href="#">&copy;2020 <b>ÍNDICO NOTICIAS</b>
+
+                            <a class="text-body nav-link" href="#">Términos y condiciones</a>
+
+                            <a class="text-body nav-link"
+                                href="../politica-de-privacidad/politica-de-privacidad.html">Política de
+                                privacidad</a>
+
+                            <a class="text-body nav-link" href="../contact-page/contact-page.html">Contacto</a>
+
+                            <a class="text-body nav-link" href="#">Públicidad</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p>Creado por <b>Grupo 2 RollingCode</b></p>
+            </div>
+        </div>
     </footer>
+    <!-- BOOTSTRAP JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
