@@ -18,35 +18,23 @@ body {background-color: #fffffff5;}
 
 /*BARRA DOLAR*/
 
-.contenedor {
-    
-    margin: auto;
-    display: flex;
-    height: 200px;
-    justify-content: space-around;
-
-    background-color: DodgerBlue;
-}
-
-  
-  .nav {
-    background-color: DodgerBlue;
-    width: 100px;
-    padding: 0;
-    margin-bottom: 0px;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
+.row {
+    background: #007bff;
+    font-family: arial, verdana, tahoma, sans-serif;
     color: white;
+   padding-top: 30px;
+    
 }
 
+.text-center {
+    font-size: 15px;
+    font-weight: bold;
+    
+}
 
-  h2 {
-      font-size: 30px;
-      text-align: justify;
+p.text-center {
+    font-weight: bold;
+    font-size: 40px;
 }
 
 /*NOTICIAS*/
@@ -91,4 +79,28 @@ h5 {
     color: #999;
 }
 
+/*FECHA*/
 
+.fecha{
+    color: rgb(117, 115, 115);
+}
+/*NAVBAR DROPDOWN*/
+.dropdown-menu{
+    background: #429bfa;
+    
+}
+
+
+.dropdown-item{
+    color: rgb(255, 255, 255);
+}
+
+/*FOOTER*/
+.letrablanca:hover{
+    color: rgb(202, 196, 196);
+}
+
+.text-body:hover{
+    color: rgb(31, 30, 30);
+    text-decoration: underline;
+}
