@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <title>ÍNDICO NOTICIAS</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm"
+          aria-expanded="false">
+          <span class="sr-only"> Desplegar / Ocultar Menu</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <img src="img/indico--noticias.png" alt="100px" width="100px" />
+      </div>
+      <!--Inicia Menú-->
+      <div class="collapse navbar-collapse" id="navegacion-fm">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Ultimo Momento</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+              Categorias <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Actualidad</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Espectaculos</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Deportes</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Economía</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Club Índico</a></li>
+        </ul>
+        <form action="" class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Buscar">
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </form>
+      </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Jumbotron -->
+  <section class="jumbotron">
+    <div class="container">
+      <h3 class="titulo-contacto">Contacto</h3>
+    </div>
+  </section>
+  <!-- FORMULARIO -->
+  <section class="main container well well-sm setear-flex">
+    <div class="d-flex flex-row mb-2 setear-flex flex-100">
+      <!-- <div class=""> -->
+      <form class="form-horizontal setear-flex flex-50" method="post">
+        <fieldset class="setear-flex flex-100">
+          <legend class="text-center header">Mensajes y consultas</legend>
+
+          <div class="form-group">
+            <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-user"></i></span>
+            <div class="col-md-8">
+              <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-user"></i></span>
+            <div class="col-md-8">
+              <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-envelope"></i></span>
+            <div class="col-md-8">
+              <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-earphone"></i></span>
+            <div class="col-md-8">
+              <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-comment"></i></span>
+            <div class="col-md-8">
+              <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="7"></textarea>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-md-12 text-center">
+              <button type="submit" class="btn btn-primary btn-lg">ENVIAR</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+      <!-- PUBLICIDAD -->
+      <div class="col-md-3 hidden-xs hidden-sm flex-fill setear-flex flex-25 flex-wrap">
+        <aside class="publicidad setear-flex card">
+          <div class="widget">
+            <h3 class="h3">Publicidad</h3>
+            <p>En Índico Noticias podemos mejorar tus ventas, por publicidad contactanos al siguiente mail:</p>
+            <a href="#" class="card-link">Publicidad@indico.com</a>
+          </div>
+        </aside>
+        <aside class="col-md-3 hidden-xs hidden-sm setear-flex card">
+          <div class="widget">
+            <h3 class="h3">Clasificados</h3>
+            <p>Alguien busca lo que vos vendes, para publicar contactanos al siguiente mail:</p>
+            <a href="#" class="card-link">Clasificados@indico.com</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <span class="logo">LOGO</span>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="menu">
+            <span>Menú</span>
+            <li>
+              <a href="#">Últimas Noticias</a>
+            </li>
+
+            <li>
+              <a href="#">Acerca de</a>
+            </li>
+
+            <li>
+              <a href="#">Redacción</a>
+            </li>
+
+            <li>
+              <a href="#">Red de Periodistas </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="address">
+            <span>Redes Sociales</span>
+            <li>
+              <i class="fa fa-facebook" aria-hidden="true"></i> <a href="#">Facebook</a>
+            </li>
+            <li>
+              <i class="fa fa-map-marker" aria-hidden="true"></i> <a href="#">Instagram</a>
+            </li>
+            <li>
+              <i class="fa fa-envelope" aria-hidden="true"></i> <a href="#">Twitter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <ul>
+        <li>&copy;2020 <a href="#">ÍNDICO NOTICIAS</a></li>
+        <li>|</li>
+        <li><a href="#">Términos y condiciones</a></li>
+        <li>|</li>
+        <li><a href="#">Política de privacidad</a></li>
+        <li>|</li>
+        <li><a href="#">Contacto</a></li>
+        <li>|</li>
+        <li><a href="#">Públicidad</a></li>
+        <li>|</li>
+        <li>Creado por <a href="#">Grupo 2 RollingCode</a></li>
+      </ul>
+    </div>
+
+  </footer>
+  <!-- Footer -->
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
