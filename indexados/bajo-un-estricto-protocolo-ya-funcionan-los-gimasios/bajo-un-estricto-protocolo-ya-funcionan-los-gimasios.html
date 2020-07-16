@@ -6,7 +6,7 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="icon" href="../../img/wireframe/favicon.png">
-    <title>Índico Noticias</title>
+    <title>Noticias - Índico Noticias</title>
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../customcss/custom.css">
 </head>
@@ -15,7 +15,7 @@
     <!-- STICKY NAVBAR: INICIO -->
 
     <nav class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
-        <a class="navbar-brand" href="../../index.html"><img src="../../img/wireframe/footerlogo.png" alt="índicologo"
+        <a class="navbar-brand" href="../index.html"><img src="../../img/wireframe/footerlogo.png" alt="índicologo"
                 height="60px" width="100px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,36 +26,33 @@
 
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="a1 nav-link" href="#">Últimas Noticias<span class="sr-only">(current)</span></a>
+                    <a class="a1 nav-link" href="../../index.html">Últimas Noticias<span
+                            class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="a1 nav-link" href="#">Coronavirus</a>
-                </li>
-                <li class="nav-item">
-                    <a class="a1 nav-link" href="#">Economía</a>
-                </li>
-                <li class="nav-item">
-                    <a class="a1 nav-link" href="#">Política</a>
-                </li>
-                <li class="nav-item">
-                    <a class="a1 nav-link" href="#">Deportes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="a1 nav-link" href="#">Espectáculos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="a1 nav-link" href="#">Música</a>
-                </li>
-                <li class="nav-item">
-                    <a class="a1 nav-link" href="../../indexados/contact-page/contact-page.html">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="a1 nav-link" href="#">Acerca de nosotros</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Categorías
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../Error-404/index.html">Coronavirus</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../Error-404/index.html">Mundo</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../Error-404/index.html">Locales</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../Error-404/index.html">Economía</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../Error-404/index.html">Deportes</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../Error-404/index.html">Espectáculos</a>
+
+                    </div>
                 </li>
             </ul>
 
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
                 <button class="btn btn-success btn-outline-success my-2 my-sm-0" type="submit">🔎</button>
             </form>
         </div>
@@ -94,12 +91,11 @@
                 <span class="sr-only">Netx</span>
             </a>
         </div>
-        <p>Cortesía Osvaldo Ripol La Gaceta ®</p>
+        <p class="author">Cortesía Osvaldo Ripol La Gaceta ® | <span>15.07.20</span></p>
 
         <div class="d-flex flex-column ">
             <div class="p-2 justify-content-center">
 
-                <p>16 Jun 2020</p>
                 <p> En nuestra ciudad, está todo listo para la reapertura de los gimnasios. Algunos abrirán desde el
                     primer día del mes de julio, y ya indicaron los protocolos correspondientes a seguir, a través de
                     las redes sociales. </p>
@@ -146,20 +142,21 @@
                                 style="border-radius: 5px;">
                         </div>
                         <div class="col">
-                            <h5 class="letrablanca">MENÚ</h5>
+                            <h6 class="letrablanca">MENÚ</h6>
                             <hr style="background-color: white;">
-                            <a class="letrablanca nav-link" href="#">Últimas Noticias</a>
-                            <a class="letrablanca nav-link" href="#">Acerca de</a>
-                            <a class="letrablanca nav-link" href="#">Redacción</a>
-                            <a class="letrablanca nav-link" href="#">Red de Periodistas </a>
+                            <a class="letrablanca nav-link" href="../../index.html">Últimas Noticias</a>
+                            <a class="letrablanca nav-link" href="../acercade-page/AcercaDeNosotros.html">Acerca de</a>
+                            <a class="letrablanca nav-link" href="../Error-404/index.html">Red de Periodistas</a>
+                            <a class="letrablanca nav-link"
+                                href="../registro-newsletter/registro-newsletter.html">Newsletter</a>
                         </div>
                         <div class="col">
-                            <h5 class="letrablanca">REDES SOCIALES</h5>
+                            <h6 class="letrablanca">REDES SOCIALES</h6>
                             <hr style="background-color: white;">
-                            <a class="letrablanca nav-link" href="#">Facebook</a>
-                            <a class="letrablanca nav-link" href="#">Instagram</a>
-                            <a class="letrablanca nav-link" href="#">Twitter</a>
-                            <a class="letrablanca nav-link" href="#"> </a>
+                            <a class="letrablanca nav-link" href="../Error-404/index.html">Facebook</a>
+                            <a class="letrablanca nav-link" href="../Error-404/index.html">Instagram</a>
+                            <a class="letrablanca nav-link" href="../Error-404/index.html">Twitter</a>
+
                         </div>
                     </div>
                 </div>
@@ -169,18 +166,20 @@
         <div class="container d-none d-md-block d-lg-block d-xl-block">
             <div class="d-flex flex-row justify-content-center">
                 <div>
-                    <a class="text-body nav-link" href="#">Términos y condiciones</a>
+                    <a class="text-body nav-link"
+                        href="../../indexados/politica-de-privacidad/politica-de-privacidad.html">Términos y
+                        condiciones</a>
                 </div>
                 <div>
-                    <a class="text-body nav-link" href="../politica-de-privacidad/politica-de-privacidad.html">Política
-                        de
+                    <a class="text-body nav-link"
+                        href="../../indexados/politica-de-privacidad/politica-de-privacidad.html">Política de
                         privacidad</a>
                 </div>
                 <div>
-                    <a class="text-body nav-link" href="../../indexados/contact-page/contact-page.html">Contacto</a>
+                    <a class="text-body nav-link" href="../contact-page/contact-page.html">Contacto</a>
                 </div>
                 <div>
-                    <a class="text-body nav-link" href="#">Publicidad</a>
+                    <a class="text-body nav-link" href="../contact-page/contact-page.html">Publicidad</a>
                 </div>
 
             </div>
@@ -208,20 +207,20 @@
                             <div class="flex-column">
                                 <h5 class="letrablanca">MENÚ</h5>
                                 <hr style="background-color: white;">
-                                <a class="letrablanca nav-link" href="#">Últimas Noticias</a>
-                                <a class="letrablanca nav-link" href="#">Acerca de</a>
-                                <a class="letrablanca nav-link" href="#">Redacción</a>
-                                <a class="letrablanca nav-link" href="#">Red de Periodistas </a>
+                                <a class="letrablanca nav-link" href="../../index.html">Últimas Noticias</a>
+                                <a class="letrablanca nav-link" href="../acercade-page/AcercaDeNosotros.html">Acerca
+                                    de</a>
+                                <a class="letrablanca nav-link" href="../Error-404/index.html">Red de Periodistas</a>
+                                <a class="letrablanca nav-link"
+                                    href="../registro-newsletter/registro-newsletter.html">Newsletter</a>
                             </div>
 
                             <div class="flex-column">
                                 <h5 class="letrablanca">REDES SOCIALES</h5>
                                 <hr style="background-color: white;">
-                                <a class="letrablanca nav-link" href="#">Facebook</a>
-                                <a class="letrablanca nav-link" href="#">Instagram</a>
-                                <a class="letrablanca nav-link" href="#">Twitter</a>
-                                <a class="letrablanca nav-link" href="#"> </a>
-
+                                <a class="letrablanca nav-link" href="../../Error-404/index.html">Facebook</a>
+                                <a class="letrablanca nav-link" href="../../Error-404/index.html">Instagram</a>
+                                <a class="letrablanca nav-link" href="../../Error-404-2/index.html">Twitter</a>
                             </div>
                         </div>
                     </div>
@@ -233,10 +232,12 @@
                     <div class="flex-column">
                         <a class="text-body nav-link" href="#">&copy;2020 <b>ÍNDICO NOTICIAS</b>
 
-                            <a class="text-body nav-link" href="#">Términos y condiciones</a>
+                            <a class="text-body nav-link"
+                                href="../../indexados/politica-de-privacidad/politica-de-privacidad.html">Términos y
+                                condiciones</a>
 
                             <a class="text-body nav-link"
-                                href="../politica-de-privacidad/politica-de-privacidad.html">Política de
+                                href="../../indexados/politica-de-privacidad/politica-de-privacidad.html">Política de
                                 privacidad</a>
 
                             <a class="text-body nav-link" href="../contact-page/contact-page.html">Contacto</a>
